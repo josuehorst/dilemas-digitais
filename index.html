@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dilemas Digitais | Golpes, Confiança e Sociedade</title>
+  <meta name="description" content="Site educativo aprofundado sobre golpes digitais, engenharia social, dilemas éticos e impactos sociais da segurança online.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo"><i class="fas fa-balance-scale"></i> Dilemas Digitais</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#golpes">Golpes</a></li>
+        <li><a href="#psicologia">Psicologia</a></li>
+        <li><a href="#dilemas">Dilemas</a></li>
+        <li><a href="#simulador">Simulador</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#protecao">Proteção</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <h1>Golpes Digitais e os Dilemas da Confiança</h1>
+      <p>Uma análise profunda sobre como a tecnologia transforma relações sociais, explora vulnerabilidades humanas e cria novos dilemas éticos no cotidiano.</p>
+      <div class="hero-buttons">
+        <a href="#introducao" class="btn">Começar a leitura</a>
+        <a href="#simulador" class="btn btn-outline">Ir para o Simulador</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Introdução -->
+  <section id="introducao" class="section">
+    <div class="container">
+      <h2><i class="fas fa-book-open"></i> Introdução: O Paradoxo da Conectividade</h2>
+     
+      <div class="long-text">
+        <p>Vivemos em uma era em que a confiança — antes construída por proximidade física, reputação local e relações de longo prazo — passou a ser mediada por telas, algoritmos e interações instantâneas. Essa transformação trouxe benefícios enormes: acesso à informação, inclusão financeira, possibilidade de manter laços afetivos à distância. Ao mesmo tempo, criou um terreno fértil para a exploração sistemática da boa-fé humana.</p>
+
+        <p>Os golpes digitais não são apenas crimes técnicos. Eles são, em essência, <strong>dilemas sociais</strong> materializados. O estelionatário digital não precisa necessariamente de um vírus sofisticado; muitas vezes basta compreender como as pessoas reagem a urgência, autoridade, empatia e medo de exclusão. O mesmo mecanismo que nos faz ajudar um amigo em dificuldades ou confiar em uma instituição oficial é o que os golpistas aprendem a imitar.</p>
+
+        <p>Este site não pretende apenas listar “dicas de segurança”. O objetivo é convidar à reflexão: como equilibramos a necessidade de confiar (essencial para a vida em sociedade) com a prudência exigida por um ambiente digital onde a identidade do outro é facilmente fabricada? Quais responsabilidades coletivas surgem quando a vulnerabilidade de um indivíduo pode se transformar em porta de entrada para danos a toda uma rede de relacionamentos?</p>
+
+        <p>Nas seções a seguir, exploraremos os principais tipos de golpes, a psicologia que os torna eficazes, dilemas éticos concretos que surgem no dia a dia e ferramentas interativas para treinar o olhar crítico.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tipos de Golpes -->
+  <section id="golpes" class="section alt">
+    <div class="container">
+      <h2><i class="fas fa-exclamation-triangle"></i> Tipologia dos Golpes Digitais</h2>
+      <p class="section-intro">Os golpes evoluem constantemente, mas a maioria se apoia em padrões recorrentes de manipulação. Conhecer esses padrões reduz a chance de ser surpreendido.</p>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>1. Phishing e seus derivados</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>O phishing clássico consiste no envio de mensagens (e-mail, SMS, WhatsApp, redes sociais) que imitam instituições legítimas — bancos, órgãos públicos, empresas de entrega, plataformas de streaming — com o objetivo de induzir a vítima a clicar em um link ou revelar dados sensíveis.</p>
+            <p>Hoje existem variações mais sofisticadas: o <em>spear phishing</em> (ataques direcionados a uma pessoa específica, usando informações coletadas nas redes sociais), o <em>vishing</em> (phishing por voz, com ligações que imitam o suporte de bancos) e o <em>smishing</em> (via SMS). Em muitos casos, o golpista já possui dados parciais da vítima (nome, CPF, valor de uma compra recente), o que aumenta a credibilidade da abordagem.</p>
+            <p>O ponto central não é a tecnologia do e-mail falso, mas a capacidade de gerar uma sensação de urgência ou de normalidade. “Sua conta será bloqueada em 2 horas” ou “Confirme o recebimento do seu pedido” são gatilhos que exploram o medo de perda e o desejo de resolver rapidamente um problema.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>2. Engenharia Social e o “Golpe do Amigo”</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>A engenharia social é a arte de manipular pessoas para que realizem ações ou revelem informações. No ambiente digital, uma de suas formas mais dolorosas é o golpe do perfil clonado ou do “amigo em apuros”.</p>
+            <p>O criminoso invade ou clona a conta de alguém próximo à vítima e, em seguida, envia mensagens pedindo dinheiro urgente — geralmente alegando acidente, perda de documentos, necessidade de pagar uma multa ou uma dívida inesperada. Como a mensagem parte de um contato conhecido, a resistência natural diminui drasticamente.</p>
+            <p>Esse tipo de golpe expõe um dilema social profundo: a solidariedade, valor fundamental, torna-se o vetor do crime. A pessoa que ajuda acredita estar praticando um ato de amizade; na verdade, está transferindo recursos para um desconhecido. O trauma posterior muitas vezes inclui não apenas a perda financeira, mas a vergonha e a ruptura de confiança com a pessoa cuja conta foi usada.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>3. Golpes de Investimento e Pirâmides Digitais</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Promessas de rentabilidade alta e rápida, divulgadas por influenciadores ou grupos de WhatsApp/Telegram, atraem milhares de pessoas todos os anos. Muitas dessas operações são esquemas de pirâmide disfarçados de “comunidades de investidores” ou “robôs de trading”.</p>
+            <p>O mecanismo psicológico é poderoso: prova social (depoimentos, prints de lucros), autoridade (supostos especialistas) e o desejo de ascensão financeira em um contexto de instabilidade econômica. Quem entra cedo pode até receber algum retorno — financiado pelo dinheiro de quem entra depois —, o que reforça a credibilidade do esquema até o colapso.</p>
+            <p>O dilema aqui é coletivo: quanto mais pessoas recomendam o “investimento” para amigos e familiares, mais o esquema se alimenta. A lealdade social e o desejo de ajudar o outro a “ganhar dinheiro” acabam se transformando em instrumentos de expansão do crime.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>4. Golpes de Romance e Exploração Emocional</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Conhecidos internacionalmente como <em>romance scams</em>, esses golpes envolvem a construção de um relacionamento afetivo falso, geralmente por meses, até que o golpista começa a pedir ajuda financeira sob pretextos dramáticos (doença, viagem, problemas legais, herança bloqueada).</p>
+            <p>A vítima, muitas vezes isolada ou em busca de conexão afetiva, desenvolve um vínculo real com uma persona inventada. Quando a fraude é descoberta, o dano não é apenas material: há um luto pela relação que nunca existiu e um profundo questionamento da própria capacidade de julgar intenções alheias.</p>
+            <p>Esse tipo de golpe revela como a solidão e a necessidade de pertencimento — dimensões humanas fundamentais — podem ser instrumentalizadas em escala industrial por grupos criminosos organizados.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>5. Falsas Central de Atendimento e “Suporte Técnico”</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Pop-ups agressivos no navegador, ligações alegando vírus no computador ou mensagens sobre “atividade suspeita” em contas de e-mail e redes sociais são portas de entrada para esse tipo de golpe. O criminoso se passa por técnico de uma empresa conhecida e convence a vítima a instalar um software de acesso remoto ou a transferir valores para “desbloquear” a conta.</p>
+            <p>A eficácia depende da criação de pânico. Quando a pessoa acredita que está prestes a perder dados importantes ou ter a conta invadida, a capacidade de questionar a legitimidade do interlocutor diminui. O golpe explora tanto o desconhecimento técnico quanto o medo de ser responsabilizado por algo que “deu errado” no dispositivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Psicologia -->
+  <section id="psicologia" class="section">
+    <div class="container">
+      <h2><i class="fas fa-brain"></i> A Psicologia por Trás dos Golpes</h2>
+     
+      <div class="long-text">
+        <p>Entender por que pessoas inteligentes e cuidadosa caem em golpes é essencial. A resposta raramente está na “falta de atenção” isolada. Os criminosos estudam e aplicam princípios bem documentados da psicologia social e comportamental.</p>
+
+        <h3>Princípios explorados com frequência</h3>
+        <ul class="detailed-list">
+          <li><strong>Urgência e escassez:</strong> “Só restam 2 horas”, “Últimas vagas”, “Sua conta será bloqueada hoje”. O cérebro, sob pressão de tempo, reduz a análise crítica e privilegia a ação rápida.</li>
+          <li><strong>Autoridade:</strong> Uniformes, logotipos oficiais, linguagem burocrática e menção a leis ou regulamentos ativam o hábito social de obedecer a figuras de autoridade.</li>
+          <li><strong>Prova social:</strong> Depoimentos, números de “clientes satisfeitos”, prints de conversas e indicações de conhecidos criam a ilusão de que “todo mundo está fazendo”.</li>
+          <li><strong>Reciprocidade:</strong> Pequenos favores iniciais (um “brinde”, uma informação útil, um elogio) geram uma dívida psicológica que facilita pedidos posteriores maiores.</li>
+          <li><strong>Compromisso e coerência:</strong> Uma vez que a pessoa dá um primeiro passo pequeno (responde uma mensagem, clica em um link, envia um documento), torna-se psicologicamente mais difícil recuar nos passos seguintes.</li>
+          <li><strong>Empatia e identidade de grupo:</strong> Mensagens que ativam solidariedade familiar, religiosa, política ou de comunidade reduzem a desconfiança.</li>
+        </ul>
+
+        <p>Esses mecanismos não são “falhas” da natureza humana. São adaptações que, em contextos históricos de grupos pequenos e relações presenciais, favoreciam a cooperação e a sobrevivência. O problema é que o ambiente digital permite a simulação em massa desses sinais de confiança, sem os freios naturais da proximidade física e da reputação de longo prazo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dilemas Sociais -->
+  <section id="dilemas" class="section alt">
+    <div class="container">
+      <h2><i class="fas fa-users"></i> Dilemas Sociais e Éticos</h2>
+      <p class="section-intro">A segurança digital não é apenas uma questão individual de “não clicar em links”. Ela envolve escolhas que afetam redes inteiras de relacionamentos.</p>
+
+      <div class="dilemma-grid">
+        <article class="dilemma-card large">
+          <h3>1. Ajudar ou desconfiar?</h3>
+          <p>Quando um conhecido pede dinheiro com urgência, a resposta instintiva de muitas pessoas é ajudar. Recusar ou questionar demais pode ser interpretado como falta de solidariedade. Porém, em um cenário de perfis clonados, a ajuda impulsiva pode financiar o crime e, paradoxalmente, prejudicar a própria pessoa que se queria auxiliar (cuja conta foi comprometida).</p>
+          <p><strong>O dilema:</strong> Como manter a disposição de ajudar sem se tornar um elo na cadeia do golpe? Existe uma forma de solidariedade que inclua a verificação cautelosa como parte do cuidado com o outro?</p>
+        </article>
+
+        <article class="dilemma-card large">
+          <h3>2. Privacidade coletiva vs. individual</h3>
+          <p>Compartilhar fotos de família, localização em tempo real, rotinas diárias e até documentos em grupos de WhatsApp ou redes sociais é, para muitos, uma forma de manter laços e criar memória coletiva. Ao mesmo tempo, cada informação divulgada amplia a superfície de ataque disponível para criminosos que montam perfis falsos ou engenham abordagens personalizadas.</p>
+          <p><strong>O dilema:</strong> Até que ponto a liberdade de compartilhar a própria vida pode colidir com a segurança de terceiros (filhos, idosos, pessoas em situação de vulnerabilidade) que aparecem nesses conteúdos?</p>
+        </article>
+
+        <article class="dilemma-card large">
+          <h3>3. Denunciar e o custo social</h3>
+          <p>Após perceber que caiu em um golpe, muitas vítimas enfrentam vergonha. O medo de serem julgadas como “ingênuas” ou de expor a própria vulnerabilidade faz com que o caso não seja reportado. Isso tem consequências coletivas: a subnotificação dificulta o mapeamento das operações criminosas e a proteção de outras pessoas.</p>
+          <p><strong>O dilema:</strong> Como criar uma cultura em que denunciar seja visto como ato de responsabilidade social, e não como admissão de fracasso pessoal?</p>
+        </article>
+
+        <article class="dilemma-card large">
+          <h3>4. A responsabilidade das plataformas</h3>
+          <p>Redes sociais, aplicativos de mensagem e marketplaces lucram com o engajamento e a facilidade de conexão. Ao mesmo tempo, são os principais veículos de disseminação de golpes. A moderação excessiva pode ser acusada de censura; a moderação insuficiente, de negligência.</p>
+          <p><strong>O dilema:</strong> Qual o equilíbrio justo entre liberdade de comunicação, inovação e dever de cuidado com os usuários mais vulneráveis?</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulador de Decisões -->
+  <section id="simulador" class="section">
+    <div class="container">
+      <h2><i class="fas fa-project-diagram"></i> Simulador de Decisões</h2>
+      <p class="section-intro">Coloque-se em situações reais. Suas escolhas revelam como os dilemas se apresentam no cotidiano. Não há “resposta perfeita”, mas há caminhos mais e menos seguros.</p>
+
+      <div class="simulator-box">
+        <div id="scenarioContainer">
+          <h3 id="scenarioTitle">Carregando cenário...</h3>
+          <p id="scenarioText"></p>
+          <div id="scenarioOptions" class="scenario-options"></div>
+        </div>
+        <div id="scenarioFeedback" class="scenario-feedback" style="display:none;"></div>
+        <button id="nextScenario" class="btn" style="display:none;">Próximo cenário</button>
+        <div id="simulatorEnd" style="display:none;">
+          <h3>Fim da simulação</h3>
+          <p id="simulatorSummary"></p>
+          <button id="restartSimulator" class="btn">Recomeçar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiz -->
+  <section id="quiz" class="section alt">
+    <div class="container">
+      <h2><i class="fas fa-question-circle"></i> Quiz de Conscientização</h2>
+      <p class="section-intro">Teste seus conhecimentos sobre padrões de golpe e respostas mais seguras.</p>
+
+      <div class="quiz-box">
+        <div id="quizContainer">
+          <div class="quiz-progress">
+            <div id="quizProgressBar"></div>
+          </div>
+          <p id="questionCounter"></p>
+          <h3 id="questionText">Carregando...</h3>
+          <div id="options" class="options"></div>
+          <p id="quizFeedback"></p>
+          <button id="nextQuestion" class="btn" style="display:none;">Próxima pergunta</button>
+        </div>
+        <div id="quizResult" style="display:none;">
+          <h3>Resultado</h3>
+          <p id="scoreText"></p>
+          <p id="scoreComment"></p>
+          <button id="restartQuiz" class="btn">Refazer o quiz</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proteção -->
+  <section id="protecao" class="section">
+    <div class="container">
+      <h2><i class="fas fa-shield-alt"></i> Caminhos de Proteção e Resposta</h2>
+     
+      <div class="long-text">
+        <p>Não existe proteção absoluta. O que existe é a redução de riscos por meio de hábitos, verificação cruzada e redes de apoio. Algumas orientações práticas, alinhadas aos dilemas discutidos:</p>
+
+        <h3>Antes de transferir dinheiro ou dados</h3>
+        <ul class="detailed-list">
+          <li>Confirme a identidade por um canal diferente do que originou o pedido (ligação de voz, encontro presencial, aplicativo oficial).</li>
+          <li>Desconfie de qualquer urgência extrema. Golpistas precisam que você aja antes de pensar.</li>
+          <li>Nunca forneça códigos de verificação, senhas ou acesso remoto a quem ligou ou escreveu espontaneamente.</li>
+        </ul>
+
+        <h3>Em relação a pessoas próximas</h3>
+        <ul class="detailed-list">
+          <li>Combine códigos ou perguntas secretas com familiares para validar pedidos urgentes de dinheiro.</li>
+          <li>Se perceber que a conta de alguém foi invadida, avise a pessoa por outro meio e oriente a recuperação da conta.</li>
+          <li>Evite julgar publicamente quem caiu em golpe. A vergonha silencia denúncias e isola a vítima.</li>
+        </ul>
+
+        <h3>Quando o golpe já ocorreu</h3>
+        <ul class="detailed-list">
+          <li>Registre boletim de ocorrência (muitos estados permitem registro online).</li>
+          <li>Comunique o banco imediatamente em caso de transferência via Pix ou TED.</li>
+          <li>Guarde prints, números de telefone, links e conversas — são provas.</li>
+          <li>Considere contar a pessoas de confiança. O apoio emocional é parte da recuperação.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recursos -->
+  <section id="recursos" class="section alt">
+    <div class="container">
+      <h2><i class="fas fa-external-link-alt"></i> Recursos e Canais Oficiais</h2>
+      <p>Links que abrem em nova aba. Prefira sempre fontes institucionais.</p>
+
+      <div class="resources">
+        <a href="https://cert.br/" target="_blank" rel="noopener" class="resource-card">
+          <i class="fas fa-flag"></i>
+          <div>
+            <strong>CERT.br</strong>
+            <span>Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil</span>
+          </div>
+        </a>
+        <a href="https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/denuncie" target="_blank" rel="noopener" class="resource-card">
+          <i class="fas fa-bullhorn"></i>
+          <div>
+            <strong>Ministério da Justiça</strong>
+            <span>Canais de denúncia e orientações oficiais</span>
+          </div>
+        </a>
+        <a href="https://www.consumidor.gov.br/" target="_blank" rel="noopener" class="resource-card">
+          <i class="fas fa-balance-scale"></i>
+          <div>
+            <strong>consumidor.gov.br</strong>
+            <span>Plataforma de reclamação e resolução de conflitos de consumo</span>
+          </div>
+        </a>
+        <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener" class="resource-card">
+          <i class="fas fa-user-check"></i>
+          <div>
+            <strong>Have I Been Pwned</strong>
+            <span>Verifique se seu e-mail apareceu em vazamentos de dados</span>
+          </div>
+        </a>
+        <a href="https://www.ncsc.gov.uk/collection/phishing-scams" target="_blank" rel="noopener" class="resource-card">
+          <i class="fas fa-shield-virus"></i>
+          <div>
+            <strong>NCSC (Reino Unido)</strong>
+            <span>Material educativo de alta qualidade sobre phishing</span>
+          </div>
+        </a>
+        <a href="https://www.ftc.gov/business-guidance/small-businesses/cybersecurity" target="_blank" rel="noopener" class="resource-card">
+          <i class="fas fa-landmark"></i>
+          <div>
+            <strong>FTC (EUA)</strong>
+            <span>Orientações sobre fraudes e proteção do consumidor</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Conteúdo educativo sobre golpes digitais, engenharia social e dilemas éticos da confiança online.</p>
+      <p>Não substitui orientação jurídica ou policial. Em caso de crime, registre ocorrência e procure canais oficiais.</p>
+      <p class="footer-note">Projeto de conscientização • Código aberto</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
